@@ -216,6 +216,128 @@ g10 <- filteredData |>
   theme_common +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
+# Plot 11: Churn by Payment Method Type
+g11 <- safe_sample(filteredData, 1000) |>
+  ggplot(aes(x = fct_rev(Subscriber_Payment_Method_Type), fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn by Payment Method", x = "Payment Method", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Plot 12: Churn by Internet Service Type
+g12 <- filteredData |>
+  mutate(Subscriber_Internet_Service = as.factor(Subscriber_Internet_Service)) |>
+  ggplot(aes(x = Subscriber_Internet_Service, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn by Internet Service Type", x = "Internet Service", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 13: Churn by Paperless Billing
+g13 <- filteredData |>
+  mutate(Subscriber_Paperless_Billing = as.factor(Subscriber_Paperless_Billing)) |>
+  ggplot(aes(x = Subscriber_Paperless_Billing, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Paperless Billing", x = "Paperless Billing", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 14: Average Total Charges by Churn
+df14 <- filteredData |>
+  group_by(churn) |>
+  summarise(avg_total = safe_mean(Subscriber_Total_Charges), .groups = "drop")
+
+g14 <- ggplot(df14, aes(x = churn, y = avg_total, fill = churn)) +
+  geom_col() +
+  geom_text(aes(label = paste0("Avg: $", round(avg_total, 0))), vjust = -0.5) +
+  labs(title = "Average Total Charges", x = "Churn", y = "Avg Total Charges ($)") +
+  scale_fill_manual(values = churn_cols, drop = FALSE) +
+  theme_common
+
+# Plot 15: Churn Score Distribution
+fd15 <- filteredData |>
+  mutate(Subscriber_Churn_Score_Value = suppressWarnings(as.numeric(as.character(Subscriber_Churn_Score_Value))))
+
+g15 <- fd15 |>
+  ggplot(aes(x = Subscriber_Churn_Score_Value, fill = churn)) +
+  geom_histogram(bins = 30, alpha = 0.8, position = "identity") +
+  labs(title = "Distribution of Churn Score", x = "Churn Score", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 16: Churn by Phone Service
+g16 <- filteredData |>
+  mutate(Subscriber_PhoneService = as.factor(Subscriber_PhoneService)) |>
+  ggplot(aes(x = Subscriber_PhoneService, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Phone Service", x = "Phone Service", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 17: Churn by Multiple Lines
+g17 <- filteredData |>
+  mutate(Subscriber_MultipleLines = as.factor(Subscriber_MultipleLines)) |>
+  ggplot(aes(x = Subscriber_MultipleLines, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Multiple Lines", x = "Multiple Lines", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 18: Churn by Online Security
+g18 <- filteredData |>
+  mutate(Subscriber_Online_Security = as.factor(Subscriber_Online_Security)) |>
+  ggplot(aes(x = Subscriber_Online_Security, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Online Security", x = "Online Security", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 19: Churn by Online Backup
+g19 <- filteredData |>
+  mutate(Subscriber_Online_Backup = as.factor(Subscriber_Online_Backup)) |>
+  ggplot(aes(x = Subscriber_Online_Backup, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Online Backup", x = "Online Backup", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 20: Churn by Device Protection
+g20 <- filteredData |>
+  mutate(Subscriber_Device_Protection = as.factor(Subscriber_Device_Protection)) |>
+  ggplot(aes(x = Subscriber_Device_Protection, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Device Protection", x = "Device Protection", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 21: Churn by Technical Support
+g21 <- filteredData |>
+  mutate(Subscriber_Technical_Support = as.factor(Subscriber_Technical_Support)) |>
+  ggplot(aes(x = Subscriber_Technical_Support, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Technical Support", x = "Technical Support", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 22: Churn by Streaming TV
+g22 <- filteredData |>
+  mutate(Subscriber_Streaming_TV_Online = as.factor(Subscriber_Streaming_TV_Online)) |>
+  ggplot(aes(x = Subscriber_Streaming_TV_Online, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Streaming TV", x = "Streaming TV", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
+# Plot 23: Churn by Streaming Movies
+g23 <- filteredData |>
+  mutate(Subscriber_Streaming_Movies_Online = as.factor(Subscriber_Streaming_Movies_Online)) |>
+  ggplot(aes(x = Subscriber_Streaming_Movies_Online, fill = fct_rev(churn))) +
+  geom_bar(alpha = 1) +
+  labs(title = "Customer Churn on Streaming Movies", x = "Streaming Movies", y = "Count") +
+  scale_fill_manual(values = churn_cols) +
+  theme_common
+
 # -------------------------
 # 6) RENDER (Plots pane)
 # -------------------------
@@ -232,4 +354,30 @@ print(g9a)
 print(g9b)
 print(g9c)
 print(g10)
+print(g11)
+print(g12)
+print(g13)
+print(g14)
+print(g15)
+print(g16)
+print(g17)
+print(g18)
+print(g19)
+print(g20)
+print(g21)
+print(g22)
+print(g23)
 
+# -------------------------
+# 7) EXPORT (for report)
+# -------------------------
+dir.create("../Writeup/Figures", showWarnings = FALSE)
+
+ggsave("../Writeup/Figures/fig_contract_type.png",    plot = g3,  width = 7, height = 5, dpi = 150)
+ggsave("../Writeup/Figures/fig_avg_tenure.png",       plot = g1,  width = 6, height = 4, dpi = 150)
+ggsave("../Writeup/Figures/fig_payment_method.png",   plot = g11, width = 7, height = 5, dpi = 150)
+ggsave("../Writeup/Figures/fig_internet_service.png", plot = g12, width = 6, height = 4, dpi = 150)
+ggsave("../Writeup/Figures/fig_disconnection.png",    plot = g10, width = 9, height = 5, dpi = 150)
+ggsave("../Writeup/Figures/fig_churn_score.png",      plot = g15, width = 8, height = 4, dpi = 150)
+
+cat("Figures exported to ../Writeup/Figures/\n")

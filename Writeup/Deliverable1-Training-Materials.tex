@@ -153,8 +153,116 @@ For visualisation as well as dashboard delivery, R Shiny is recommended as the m
 
 In summary, the recommended toolchain for NetConnect Solutions is Apache Spark for distributed data processing, R for statistical modelling as well as analysis, and R Shiny for interactive dashboard delivery. This stack is open-source, well supported by the academic as well as professional community, as well as directly appropriate to the scale and nature of the churn prediction task at hand.
 
+% ─── Section 6: Dashboard Findings and Conclusions (M3) ──────────────────────
+\newpage
+\section{Dashboard Findings and Business Conclusions}
+
+\subsection{Overview of the Analytical Approach}
+
+The dashboard developed for NetConnect Solutions draws on a dataset of 7,043 customer records, encompassing demographic information, service usage patterns, billing data, as well as churn outcomes. The visualisation pipeline processes this data through R and R Shiny, producing 23 interactive charts that are filterable between the full customer cohort as well as the churned cohort specifically. The findings presented here are derived directly from the patterns observable across those charts, and each conclusion is framed in terms of the operational decisions it enables for NetConnect's customer retention strategy.
+
+\subsection{Key Findings from the Data}
+
+Contract type is the single strongest categorical predictor of churn visible in the dashboard. As shown in Figure~\ref{fig:contract_type}, customers on month-to-month contracts represent the overwhelming majority of churned accounts, while those on one-year or two-year contracts churn at substantially lower rates. This finding is consistent with the academic literature: \textcite{Saleh2023} identify subscription plan features as one of the primary drivers of churn in telecom, and \textcite{Sikri2024} confirm that contract duration is among the most predictive features in ensemble churn models. For NetConnect, this presents a clear retention lever: offering discounted long-term contracts or loyalty incentives to month-to-month customers who exhibit other risk factors could materially reduce churn rates.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Figures/fig_contract_type}
+    \caption{Customer churn by contract type. Month-to-month customers account for the overwhelming majority of churned accounts.}
+    \label{fig:contract_type}
+\end{figure}
+
+Customer tenure shows a marked difference between churned and retained accounts, as illustrated in Figure~\ref{fig:avg_tenure}. Churned customers have significantly lower average tenure, indicating that the highest-risk window for churn is early in the customer relationship, before tenure as well as financial investment have had time to build loyalty. \textcite{Ahmad2019} note that early-stage customer behaviour is a reliable predictor of long-term retention outcomes, suggesting that NetConnect's intervention strategy should prioritise customers within their first twelve to eighteen months of service.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Figures/fig_avg_tenure}
+    \caption{Average customer tenure in months by churn status. Churned customers have significantly shorter average tenure than retained customers.}
+    \label{fig:avg_tenure}
+\end{figure}
+
+Monthly charges are higher on average for churned customers than for retained ones, pointing to price sensitivity as a contributing factor. This pattern is reinforced by Figure~\ref{fig:payment_method}, which shows that customers paying by electronic check have a disproportionately high churn rate relative to those using automated bank transfer or credit card. \textcite{Maan2023} note that payment method is a reliable indicator of financial engagement with the service, with electronic check users typically exhibiting lower commitment to the subscription.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Figures/fig_payment_method}
+    \caption{Customer churn by payment method type. Electronic check customers exhibit a disproportionately high churn rate compared to other payment methods.}
+    \label{fig:payment_method}
+\end{figure}
+
+Internet service type reveals that fibre optic customers churn at higher rates than DSL customers, as visible in Figure~\ref{fig:internet_service}. Given that fibre optic is typically the premium tier of service, this is counterintuitive at first glance, but is consistent with the finding that these customers also pay higher monthly charges and may have higher expectations for service reliability. \textcite{Saleh2023} note that network coverage as well as service quality are key churn drivers in telecom, suggesting that service disruptions -- such as the July outage described in NetConnect's incident report -- disproportionately impact the fibre optic segment.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{Figures/fig_internet_service}
+    \caption{Customer churn by internet service type. Fibre optic customers churn at a higher rate than DSL or no-internet customers.}
+    \label{fig:internet_service}
+\end{figure}
+
+Add-on services show a consistent pattern: customers without online security, online backup, device protection, or technical support churn at higher rates than those who subscribe to these services. This aligns with the academic finding that bundled service adoption increases switching costs and strengthens the customer relationship \parencite{Sana2022}. For NetConnect, this suggests that proactive promotion of add-on services to new customers -- particularly those on month-to-month contracts -- could improve long-term retention by deepening product engagement.
+
+Demographic patterns show that gender has little predictive value for churn, while senior citizens, customers without a partner, as well as customers without dependents all churn at higher rates. These findings indicate that single-person households as well as older customers represent higher-risk segments, warranting targeted communication strategies that address their specific service needs.
+
+Disconnection reasons, shown in Figure~\ref{fig:disconnection}, provide the most direct evidence of why customers leave. The distribution shows that competitor offerings, attitude of staff, as well as general dissatisfaction are the most frequently cited reasons for disconnection. \textcite{Zhou2023} note that disconnection reason data, when incorporated into predictive models alongside behavioural features, significantly improves the model's ability to distinguish between recoverable and irrecoverable churn -- that is, between customers who might respond to a retention offer and those who have already made a final decision.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/fig_disconnection}
+    \caption{Histogram of disconnection drivers. Competitor offerings, staff attitude, and general dissatisfaction are the most common reasons cited for customer departure.}
+    \label{fig:disconnection}
+\end{figure}
+
+\subsection{Business Conclusions for NetConnect}
+
+In summary, the dashboard findings support a clear set of business conclusions. NetConnect should focus retention efforts on month-to-month contract customers in their first eighteen months of service, particularly those paying by electronic check, subscribing to fibre optic internet, and not yet enrolled in any add-on services. These customers represent the highest concentration of churn risk. Targeted intervention at this segment -- through contract conversion incentives, add-on service promotions, as well as proactive customer service contact -- offers the greatest return on retention investment. As demonstrated in Figure~\ref{fig:churn_score}, the churn score distribution confirms that a distinct high-risk population exists within the customer base, making risk-score-based targeting a viable and efficient operational strategy for the retention team.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Figures/fig_churn_score}
+    \caption{Distribution of customer churn score by churn status. The separation between active and churned customers confirms a distinct high-risk segment suitable for targeted intervention.}
+    \label{fig:churn_score}
+\end{figure}
+
+% ─── Section 7: Evaluation Report (D2) ───────────────────────────────────────
+\newpage
+\section{Evaluation Report: Data Preparation, Tools, and Business Impact}
+
+\subsection{Data Preparation and Manipulation Methods}
+
+The raw data for this project was sourced from a structured customer dataset provided in Excel format, containing 7,043 records across 25 attributes spanning demographic, behavioural, billing, as well as churn-related variables. Prior to any analysis, the dataset required a structured preparation pipeline to ensure it was analytically usable.
+
+The first step was column standardisation. The raw column headers were replaced with a consistent, descriptive naming convention using the \texttt{Subscriber\_} prefix, ensuring that each attribute's source domain was immediately identifiable in any downstream analysis or visualisation. This approach reflects the data governance principle of making data assets interpretable without reference to external documentation \parencite{Li2024}.
+
+The second step addressed categorical recoding. Several service-related fields contained a three-level encoding -- ``Yes'', ``No'', and ``No internet service'' or ``No phone service'' -- which was simplified to a binary Yes/No factor. This recoding was necessary because the third level was not a genuine service state but rather an artefact of the data collection process, and its presence would have introduced misleading categories into visualisations. The recoding was applied uniformly across all affected columns using \texttt{mutate\_at}, ensuring consistency across the pipeline.
+
+The third step involved numeric type conversion for continuous variables, specifically the total charges and churn score columns, both of which were read as character type due to formatting in the source Excel file. Suppressed coercion was used to handle edge cases where blank or non-numeric values were present, converting these to \texttt{NA} rather than allowing them to propagate as invalid inputs into summary statistics or plots.
+
+The final preparatory step was the construction of a reactive data filtering mechanism within the Shiny application. Rather than replicating the filter logic across each of the 23 plot rendering functions, a single \texttt{reactive()} expression was implemented to compute the filtered dataset once per user interaction as well as share the result across all plots. This approach significantly reduced computational redundancy and improved dashboard responsiveness, reflecting the principle that data pipelines should avoid unnecessary recomputation \parencite{Sarker2021}.
+
+\subsection{Evaluation of Tool Selection}
+
+The toolchain selected for this project -- R for analysis, \texttt{ggplot2} and \texttt{plotly} for visualisation, as well as Shiny for dashboard delivery -- was evaluated against the alternatives reviewed in the Business Intelligence Proposal and found to be appropriate for NetConnect's current requirements.
+
+R with \texttt{ggplot2} provided a reproducible, code-driven visualisation environment in which every chart is fully auditable and can be regenerated identically from the source data. This is a significant advantage over point-and-click BI tools such as Tableau or Power BI for a project in an active development phase, where the underlying data and chart specifications are still being refined. \textcite{Gahar2024} note that open-source tools offer greater flexibility for customisation and are particularly well suited to exploratory analytical work where requirements are not yet fixed.
+
+Plotly's \texttt{ggplotly()} conversion layer added interactivity to \texttt{ggplot2} charts without requiring the charts to be rewritten in a different framework, minimising development overhead while still delivering the hover, zoom, as well as filter functionality that business users expect from a modern dashboard. \textcite{Lavalle2024} argue that interactivity is a core requirement of effective BI visualisation, as it allows users to explore the data at their own level of granularity rather than being constrained by static chart choices.
+
+Shiny served as the integration layer, combining the data pipeline, analytical logic, as well as visualisation into a single deployable application. The reactive programming model it employs -- in which outputs update automatically in response to input changes -- aligned well with the dashboard's primary use case: allowing NetConnect staff to toggle between the full customer cohort and the churned cohort and observe how each chart responds. For longer-term deployment, migration to a managed platform such as Posit Connect would be advisable to provide access control, usage monitoring, as well as scheduled data refresh \parencite{Sabharwal2021}.
+
+\subsection{Impact on Business Decision Making}
+
+The combined effect of the data preparation choices as well as tool selection is a dashboard that is both technically sound and operationally useful. Each of the 23 visualisations maps to a specific dimension of the churn problem, from high-level contract and payment patterns to granular service-level and demographic breakdowns, giving NetConnect's data team as well as business stakeholders a shared, interactive view of the factors driving customer loss.
+
+\textcite{Bhushan2024} describe the goal of DDDM as enabling organisations to identify where services are lacking and make evidence-based decisions in response. The NetConnect dashboard achieves this by making the churn signal visible across multiple dimensions simultaneously. The toggle between cohorts -- which switches all 23 charts from the full dataset to the churned population only -- is particularly valuable for stakeholder communication, as it allows a non-technical audience to see directly which customer segments are most affected without requiring any statistical training.
+
+\textcite{Zhou2023} demonstrate that ensemble churn models applied to telecom data can achieve recall rates approaching 99\%, but note that model performance alone is insufficient without a delivery mechanism that makes predictions actionable for the teams responsible for customer retention. The Shiny dashboard developed here provides that delivery mechanism, translating the patterns identified in the data into visual outputs that can inform specific retention decisions: which customers to target, which retention offers to deploy, as well as which service improvements to prioritise. In evaluation, the data preparation methods, tool selection, as well as the resulting visualisations are well-matched to the churn prediction task at hand, and the pipeline directly supports the proactive, data-driven retention strategy that NetConnect's senior management has identified as the organisation's strategic priority.
+
 % ─── References ───────────────────────────────────────────────────────────────
 \newpage
 \printbibliography[title={References}]
+
+% ─── List of Figures ──────────────────────────────────────────────────────────
+\newpage
+\listoffigures
 
 \end{document}

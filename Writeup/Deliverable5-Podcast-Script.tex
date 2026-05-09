@@ -1,0 +1,102 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[style=authoryear, backend=biber, maxcitenames=2, mincitenames=1]{biblatex}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\addbibresource{../References/references.bib}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\renewcommand{\contentsname}{Table of Contents}
+
+\titleformat{\section}{\large\bfseries}{Section \thesection:}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+
+\begin{document}
+
+% ─── Title Page ───────────────────────────────────────────────────────────────
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+
+    {\Large \textbf{Podcast Script -- Deliverable 5}}\\[0.5cm]
+    {\large HND MQF/EQF Level 5 -- Higher National Diploma in Computing}\\[0.3cm]
+    {\large Unit 26: Big Data Analytics and Visualisation}\\[2cm]
+
+    {\LARGE \textbf{Data Specialists in a Data-Driven Culture:\\[0.4cm]
+    A NetConnect Insights Podcast Segment}}\\[2cm]
+
+    \begin{tabular}{ll}
+        \textbf{Student Name:}   & Ryan Vassallo              \\[0.3cm]
+        \textbf{Student ID:}     & 0234105L                   \\[0.3cm]
+        \textbf{Email:}          & ryan.vassallo@da.edu.mt    \\[0.3cm]
+        \textbf{Assessor:}       & Kurt Ellul                 \\[0.3cm]
+        \textbf{Academic Year:}  & 2025/2026                  \\[0.3cm]
+        \textbf{Date:}           & \today                     \\
+    \end{tabular}
+
+    \vfill
+    {\small Domain Academy -- HNDC 2}
+\end{titlepage}
+
+% ─── Contents ─────────────────────────────────────────────────────────────────
+\newpage
+\tableofcontents
+
+% ─── Podcast Script ───────────────────────────────────────────────────────────
+\newpage
+\section{Podcast Script: Data Specialists in a Data-Driven Culture}
+
+\textit{Note: The following is the script for the pre-recorded podcast segment produced for NetConnect's internal podcast series. It covers the roles and responsibilities of BI developers, the key issues they face, as well as the strategies used to ensure data compliance.}
+
+\subsection{Introduction}
+
+Welcome back to the NetConnect Insights podcast. Today's segment focuses on something that sits at the heart of everything we do here: the world of data. Specifically, we are going to look at what it actually means to work as a data professional in a data-driven organisation -- the roles, the responsibilities, the challenges, as well as the very real question of how we keep our use of data compliant and ethical. Let's get into it.
+
+\subsection{Roles and Responsibilities of BI Developers}
+
+So first, let's talk about what a BI developer actually does, because it is one of those job titles that sounds self-explanatory but actually covers a surprisingly broad range of work.
+
+At the core, a BI developer's job is to take raw data -- which is usually messy, inconsistent, and spread across multiple systems -- and turn it into information that decision-makers can actually use. \textcite{Collier2024} identify the key competency areas for data professionals as data management, statistical analysis, data visualisation, business communication, as well as ethical reasoning. Notice that last one -- ethical reasoning. It is not purely a technical role; there is a genuine professional responsibility attached to how data is handled, interpreted, as well as presented to the business.
+
+Day to day, a BI developer at a company like NetConnect might be pulling data from billing systems, network logs, as well as customer service records; cleaning and transforming that data into a usable format; building dashboards that show churn trends or service performance; and sitting down with the marketing or operations team to explain what the numbers actually mean. That translation work -- between what the data says and what the business should do -- is arguably the most important part of the job, and it is the part that requires both technical skill as well as clear communication.
+
+\subsection{Key Issues Faced by Data Specialists}
+
+Now, what are the challenges? And there are real ones.
+
+Data quality is probably the most persistent. In any large organisation, data comes from multiple sources that were not designed to work together. Fields are labelled differently, values are encoded inconsistently, and records are duplicated or missing. \textcite{Li2024} identify human factors as well as a lack of written data standards as the two most common root causes of data quality problems, and the research is consistent: poor data quality at the input stage will compromise the reliability of any analysis at the output stage, regardless of how sophisticated the analytical methods are.
+
+The second major challenge is communicating findings to non-technical audiences. A data professional might spend days building a model that achieves 93\% accuracy in predicting customer churn \parencite{Ahmad2019}, but if they cannot explain to a marketing manager what the model is telling them as well as what they should do about it, the analysis has no business impact. \textcite{Collier2024} note that communication and stakeholder management are consistently ranked among the most in-demand competencies by employers in the data field, yet they are often underemphasised in technical training programmes.
+
+The third challenge is the pace of change in the toolset. The landscape of data technologies -- processing frameworks, visualisation platforms, as well as machine learning libraries -- changes quickly, and data professionals are expected to maintain current skills across multiple domains simultaneously. \textcite{Sabharwal2021} note that organisations face a persistent tension between investing in new analytical capabilities and maintaining the stability of existing systems, a tension that falls disproportionately on the data team to manage.
+
+Working in a data-driven culture also brings broader organisational challenges. \textcite{Tawil2023} found that cultural resistance to data-led decision making is one of the most significant barriers to DDDM adoption, even in organisations that have already invested in the technical infrastructure. Data professionals often find themselves not just analysing data but actively advocating for evidence-based approaches in environments where intuition and hierarchy have historically driven decisions. That is a genuinely difficult position to be in, and it requires not just analytical skill but patience, political awareness, as well as persistence.
+
+\subsection{Strategies for Data Compliance}
+
+Let us now turn to compliance -- because this is an area where the stakes are very high, particularly in a company that handles the personal data of millions of customers.
+
+The General Data Protection Regulation (GDPR) sets the legal framework for how personal data must be collected, stored, processed, as well as protected. \textcite{Li2023} review the empirical evidence on GDPR effectiveness and find that while the regulation has driven significant improvements in data governance practices, implementation remains uneven -- particularly in organisations where compliance is treated as a legal checkbox rather than an operational commitment.
+
+For a BI developer, compliance is not just a legal concern -- it is a design constraint that shapes every stage of the data pipeline. \textcite{Franke2024} identify the key compliance obligations that apply to software systems handling personal data: data minimisation, meaning only collecting what is necessary; purpose limitation, meaning not using data for purposes beyond what was disclosed to the user; storage limitation, meaning not retaining data longer than necessary; as well as security by design, meaning protection is built into the system from the outset rather than added after the fact.
+
+In practice, the strategies that BI developers use to ensure compliance include pseudonymisation as well as anonymisation of personal identifiers before data enters the analytical pipeline; role-based access controls that limit who can see which data; audit trails that log every access to sensitive datasets; as well as regular data quality reviews that identify and remove outdated or redundant records. \textcite{Yukhno2022} note that data governance frameworks -- formal structures that define who owns which data, who can access it, as well as how it should be maintained -- are essential for making these practices sustainable at scale, as they shift compliance from an individual responsibility to an organisational one.
+
+For NetConnect, whose customer data includes personal identifiers, location information, payment details, as well as usage patterns, a robust compliance strategy is not optional. The reputational and financial consequences of a data breach in a company serving millions of customers would be severe, and the regulatory penalties under GDPR for non-compliance are substantial. Building compliance into the analytics pipeline -- rather than treating it as a post-hoc constraint -- is the professional standard, and it is one that every BI developer at NetConnect must maintain in every project they deliver.
+
+\subsection{Conclusion}
+
+To wrap up: the data specialist role is broad, technically demanding, as well as increasingly central to how organisations like NetConnect compete and make decisions. The challenges are real -- data quality, communication, pace of change, as well as cultural resistance -- but so are the tools and frameworks available to address them. And compliance is not a barrier to good analysis; it is a foundation for it. Thank you for listening.
+
+% ─── References ───────────────────────────────────────────────────────────────
+\newpage
+\printbibliography[title={References}]
+
+\end{document}

@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Podcast Script: Data Specialists in a Data-Driven Culture}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Introduction}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Roles and Responsibilities of BI Developers}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Key Issues Faced by Data Specialists}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Strategies for Data Compliance}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Conclusion}{4}{subsection.1.5}%

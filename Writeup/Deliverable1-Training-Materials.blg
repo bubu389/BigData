@@ -1,15 +1,15 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'Deliverable1-Training-Materials.blg'
-[57] biber:340> INFO - === Wed Apr 29, 2026, 20:53:51
-[70] Biber.pm:419> INFO - Reading 'Deliverable1-Training-Materials.bcf'
-[119] Biber.pm:979> INFO - Found 13 citekeys in bib section 0
-[130] Biber.pm:4419> INFO - Processing section 0
-[138] Biber.pm:4610> INFO - Looking for bibtex file '../References/references.bib' for section 0
-[139] bibtex.pm:1713> INFO - LaTeX decoding ...
-[156] bibtex.pm:1519> INFO - Found BibTeX data source '../References/references.bib'
-[263] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[263] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[263] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[263] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[278] bbl.pm:660> INFO - Writing 'Deliverable1-Training-Materials.bbl' with encoding 'UTF-8'
-[283] bbl.pm:763> INFO - Output to Deliverable1-Training-Materials.bbl
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'Deliverable1-Training-Materials.blg'
+[80] biber:342> INFO - === Sat May  9, 2026, 19:43:24
+[98] Biber.pm:421> INFO - Reading 'Deliverable1-Training-Materials.bcf'
+[195] Biber.pm:1002> INFO - Found 15 citekeys in bib section 0
+[214] Biber.pm:4487> INFO - Processing section 0
+[224] Biber.pm:4678> INFO - Looking for bibtex file '../References/references.bib' for section 0
+[226] bibtex.pm:1713> INFO - LaTeX decoding ...
+[248] bibtex.pm:1519> INFO - Found BibTeX data source '../References/references.bib'
+[460] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[460] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[460] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[460] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[485] bbl.pm:676> INFO - Writing 'Deliverable1-Training-Materials.bbl' with encoding 'UTF-8'
+[496] bbl.pm:779> INFO - Output to Deliverable1-Training-Materials.bbl

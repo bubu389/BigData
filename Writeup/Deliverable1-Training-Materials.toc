@@ -12,3 +12,11 @@
 \contentsline {section}{\numberline {6}Business Intelligence Proposal: Tool Assessment for NetConnect Solutions}{10}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Overview of Industry Tools for Big Data Manipulation and Visualisation}{10}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Tool Suitability Assessment for NetConnect Solutions}{11}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Dashboard Findings and Business Conclusions}{13}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Overview of the Analytical Approach}{13}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Key Findings from the Data}{13}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Business Conclusions for NetConnect}{18}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Evaluation Report: Data Preparation, Tools, and Business Impact}{20}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Data Preparation and Manipulation Methods}{20}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Evaluation of Tool Selection}{20}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Impact on Business Decision Making}{21}{subsection.8.3}%

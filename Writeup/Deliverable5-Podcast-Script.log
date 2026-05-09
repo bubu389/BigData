@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.5.9)  9 MAY 2026 19:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.5.9)  9 MAY 2026 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Deliverable1-Training-Materials.tex
-(./Deliverable1-Training-Materials.tex
+**Deliverable5-Podcast-Script.tex
+(./Deliverable5-Podcast-Script.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -489,8 +489,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \@quotelevel=\count430
 \@quotereset=\count431
 
-(./Deliverable1-Training-Materials.aux)
-\openout1 = `Deliverable1-Training-Materials.aux'.
+(./Deliverable5-Podcast-Script.aux)
+\openout1 = `Deliverable5-Podcast-Script.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -519,12 +519,12 @@ File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `Deliverable1-Training-Materials.bcf'.
+\openout3 = `Deliverable5-Podcast-Script.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Deliverable1-Training-Materials.bbl' found.
+Package biblatex Info: ... file 'Deliverable5-Podcast-Script.bbl' found.
 
-(./Deliverable1-Training-Materials.bbl)
+(./Deliverable5-Podcast-Script.bbl)
 Package biblatex Info: Reference section=0 on input line 21.
 Package biblatex Info: Reference segment=0 on input line 21.
 
@@ -585,9 +585,9 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 21.
-(./Deliverable1-Training-Materials.out) (./Deliverable1-Training-Materials.out)
+(./Deliverable5-Podcast-Script.out) (./Deliverable5-Podcast-Script.out)
 \@outlinefile=\write4
-\openout4 = `Deliverable1-Training-Materials.out'.
+\openout4 = `Deliverable5-Podcast-Script.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 35.
@@ -595,12 +595,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 35.
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./Deliverable1-Training-Materials.toc)
+(./Deliverable5-Podcast-Script.toc)
 \tf@toc=\write5
-\openout5 = `Deliverable1-Training-Materials.toc'.
+\openout5 = `Deliverable5-Podcast-Script.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -608,93 +609,54 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.53 \newpage
-              [1] [2] [3] [4]
-Overfull \hbox (2.51874pt too wide) in paragraph at lines 80--80
-|[]\OT1/cmr/bx/n/14.4 Data-Driven De-ci-sion Mak-ing with Com-plex Data Sets| 
+              [1] [2] [3]
+Overfull \hbox (18.16635pt too wide) in paragraph at lines 90--91
+[]\OT1/cmr/m/n/12 In prac-tice, the strate-gies that BI de-vel-op-ers use to en
+-sure com-pli-ance in-clude pseudonymi-
  []
 
-[5] [6] [7] [8] [9] [10] [11] [12]
-<Figures/fig_contract_type.png, id=221, 505.89pt x 361.35pt>
-File: Figures/fig_contract_type.png Graphic file (type png)
-<use Figures/fig_contract_type.png>
-Package pdftex.def Info: Figures/fig_contract_type.png  used on input line 170.
-
-(pdftex.def)             Requested size: 386.96027pt x 276.40428pt.
- [13]
-<Figures/fig_avg_tenure.png, id=229, 433.62pt x 289.08pt>
-File: Figures/fig_avg_tenure.png Graphic file (type png)
-<use Figures/fig_avg_tenure.png>
-Package pdftex.def Info: Figures/fig_avg_tenure.png  used on input line 179.
-(pdftex.def)             Requested size: 341.43307pt x 227.63405pt.
- [14 <./Figures/fig_contract_type.png (PNG copy)>]
-<Figures/fig_payment_method.png, id=237, 505.89pt x 361.35pt>
-File: Figures/fig_payment_method.png Graphic file (type png)
-<use Figures/fig_payment_method.png>
-Package pdftex.def Info: Figures/fig_payment_method.png  used on input line 188
-.
-(pdftex.def)             Requested size: 386.96027pt x 276.40428pt.
- [15 <./Figures/fig_avg_tenure.png (PNG copy)>]
-<Figures/fig_internet_service.png, id=246, 433.62pt x 289.08pt>
-File: Figures/fig_internet_service.png Graphic file (type png)
-<use Figures/fig_internet_service.png>
-Package pdftex.def Info: Figures/fig_internet_service.png  used on input line 1
-97.
-(pdftex.def)             Requested size: 341.43307pt x 227.63405pt.
- [16 <./Figures/fig_payment_method.png (PNG copy)>]
-<Figures/fig_disconnection.png, id=255, 650.43pt x 361.35pt>
-File: Figures/fig_disconnection.png Graphic file (type png)
-<use Figures/fig_disconnection.png>
-Package pdftex.def Info: Figures/fig_disconnection.png  used on input line 210.
-
-(pdftex.def)             Requested size: 455.24411pt x 252.92122pt.
- [17 <./Figures/fig_internet_service.png (PNG copy)>]
-<Figures/fig_churn_score.png, id=263, 578.16pt x 289.08pt>
-File: Figures/fig_churn_score.png Graphic file (type png)
-<use Figures/fig_churn_score.png>
-Package pdftex.def Info: Figures/fig_churn_score.png  used on input line 221.
-(pdftex.def)             Requested size: 386.96027pt x 193.47968pt.
- [18 <./Figures/fig_disconnection.png (PNG copy)>] [19 <./Figures/fig_churn_sco
-re.png (PNG copy)>]
-Overfull \hbox (5.18866pt too wide) in paragraph at lines 228--228
-|[]\OT1/cmr/bx/n/14.4 Evaluation Re-port: Data Prepa-ra-tion, Tools, and Busi-
+[4]
+Overfull \hbox (37.86592pt too wide) in paragraph at lines 100--100
+\OT1/cmr/m/it/12 tion Reg-u-la-tion (GDPR) com-pli-ance in open-source soft-war
+e\OT1/cmr/m/n/12 . arXiv preprint arXiv:2406.14724.
  []
 
-[20] [21] [22] [23] [24] (./Deliverable1-Training-Materials.lof)
-\tf@lof=\write6
-\openout6 = `Deliverable1-Training-Materials.lof'.
 
- [25]
-(./Deliverable1-Training-Materials.aux)
+Overfull \hbox (2.21506pt too wide) in paragraph at lines 100--100
+[][]\OT1/cmr/m/n/12 Li, Wen-long et al. (2023). \OT1/cmr/m/it/12 Map-ping the e
+m-pir-i-cal ev-i-dence of the GDPR's (in-)effectiveness:
+ []
+
+[5] (./Deliverable5-Podcast-Script.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `Deliverable1-Training-Materials.out' has not
- changed.
-(rerunfilecheck)             Checksum: 53D0B2D37B0C604AE591EFABE0956E62;5625.
-Package logreq Info: Writing requests to 'Deliverable1-Training-Materials.run.x
-ml'.
-\openout1 = `Deliverable1-Training-Materials.run.xml'.
+Package rerunfilecheck Info: File `Deliverable5-Podcast-Script.out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 12F2BB1015A1A4AD1C32178A4FB5C8F5;1328.
+Package logreq Info: Writing requests to 'Deliverable5-Podcast-Script.run.xml'.
+
+\openout1 = `Deliverable5-Podcast-Script.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17050 strings out of 469515
- 299215 string characters out of 5470808
- 1139133 words of memory out of 5000000
- 45486 multiletter control sequences out of 15000+600000
+ 16836 strings out of 469515
+ 294257 string characters out of 5470808
+ 1133536 words of memory out of 5000000
+ 45324 multiletter control sequences out of 15000+600000
  633698 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 63i,6n,67p,1243b,1476s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,6n,67p,816b,1381s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Deliverable1-Training-Materials.pdf (26 pages, 428969 bytes).
-
+Output written on Deliverable5-Podcast-Script.pdf (6 pages, 101111 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 338 compressed objects within 4 object streams
- 69 named destinations out of 1000 (max. 500000)
- 207 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
