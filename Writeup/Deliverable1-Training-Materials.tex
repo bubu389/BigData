@@ -1,0 +1,160 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[style=authoryear, backend=biber, maxcitenames=2, mincitenames=1]{biblatex}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\addbibresource{../References/references.bib}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\renewcommand{\contentsname}{Table of Contents}
+
+\titleformat{\section}{\large\bfseries}{Section \thesection:}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+
+\begin{document}
+
+% ─── Title Page ───────────────────────────────────────────────────────────────
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+
+    {\Large \textbf{Training Materials}}\\[0.5cm]
+    {\large HND MQF/EQF Level 5 -- Higher National Diploma in Computing}\\[0.3cm]
+    {\large Unit 26: Big Data Analytics and Visualisation}\\[2cm]
+
+    {\LARGE \textbf{Big Data and Data-Driven Decision Making:\\[0.4cm]
+    Training Materials for NetConnect Solutions}}\\[2cm]
+
+    \begin{tabular}{ll}
+        \textbf{Student Name:}   & Ryan Vassallo              \\[0.3cm]
+        \textbf{Student ID:}     & 0234105L                   \\[0.3cm]
+        \textbf{Email:}          & ryan.vassallo@da.edu.mt    \\[0.3cm]
+        \textbf{Assessor:}       & Kurt Ellul                 \\[0.3cm]
+        \textbf{Academic Year:}  & 2025/2026                  \\[0.3cm]
+        \textbf{Date:}           & \today                     \\
+    \end{tabular}
+
+    \vfill
+    {\small Domain Academy -- HNDC 2}
+\end{titlepage}
+
+% ─── Contents ─────────────────────────────────────────────────────────────────
+\newpage
+\tableofcontents
+
+% ─── Introduction ─────────────────────────────────────────────────────────────
+\newpage
+\section{Introduction}
+
+NetConnect Solutions is a major telecommunications provider based in Atlanta, serving millions of residential as well as corporate customers across the United States through high-speed internet, mobile networks, as well as cable television services. In recent months, the company has faced a growing problem with customer churn, particularly in urban areas, where traditional manual analysis methods failed to uncover clear patterns or provide actionable insights. The situation was significantly worsened in July, when a targeted cyber-attack caused a widespread outage affecting over 600,000 users during peak business hours, coinciding with a major sports event. The incident overwhelmed customer service lines, crashed the company website, as well as triggered a wave of negative social media coverage. Corporate clients as well as technically informed users -- those with the lowest tolerance for service disruption -- churned at an accelerated rate in the aftermath.
+
+In response, NetConnect's senior management made the decision to move away from reactive, manual data analysis towards an automated, data-driven analytics approach. A data analyst, Alex, was brought in to lead this transformation, with the goal of developing a predictive churn model and a real-time analytics dashboard that would allow the company to identify at-risk customers before they leave.
+
+These training materials have been developed to equip NetConnect staff with an understanding of the fundamental concepts behind big data as well as data-driven decision making (DDDM). The materials cover what big data is and why it matters, how the DDDM process works, the advantages as well as challenges of working with complex data sets, and how this approach is predicted to impact both the organisation as well as its customers going forward.
+
+% ─── Section 1: Big Data Fundamentals ────────────────────────────────────────
+\newpage
+\section{Fundamental Concepts of Big Data}
+
+\subsection{What is Big Data?}
+
+Big data refers to data sets that are too large, complex, or fast-moving to be processed effectively using traditional data management tools. \textcite{Sabharwal2021} define Big Data Analytics (BDA) as the application of advanced analytic techniques -- including data mining, statistical analysis, as well as predictive modelling -- to large datasets, describing it as a new business intelligence practice that transforms raw data into actionable information. The concept is commonly characterised through the ``Vs'' framework, which has expanded over time as the field has matured. \textcite{Gahar2024} describe the foundational three Vs -- Volume, Velocity, as well as Variety -- and note that further dimensions including Veracity, Value, Validity, Vulnerability, as well as Variability have since been added, giving rise to what is sometimes referred to as the ``10 Vs'' of big data.
+
+In the context of NetConnect Solutions, each of these dimensions is directly relevant. The company generates vast volumes of data continuously, covering call records, data usage, payment histories, demographic information, as well as service interaction logs. This data arrives at high velocity and in a variety of formats, from structured billing records to unstructured social media posts and customer service transcripts. Ensuring the veracity of this data -- its accuracy as well as trustworthiness -- is a foundational requirement before any meaningful analysis can take place.
+
+\subsection{The Value of Big Data in Decision Making}
+
+The core value proposition of big data lies in its ability to surface patterns and insights that would otherwise remain hidden within large, fragmented data sets. \textcite{Sarker2021} describe data science as a discipline that extracts knowledge and actionable insights from data through advanced analytics, machine learning modelling, as well as intelligent computing, noting its application across domains including business, healthcare, as well as mobile and urban computing. \textcite{Dicuonzo2022}, drawing on a Scopus review of 93 documents covering the period 2010 to 2020, demonstrate how big data analytics has transformed healthcare decision making by enabling more effective diagnosis, treatment personalisation, as well as resource allocation -- outcomes that are directly analogous to the kind of customer insight NetConnect is seeking to develop.
+
+For end users, the value of big data manifests as more personalised, responsive service. For organisations, it translates into better-informed strategic decisions, reduced operational waste, as well as the ability to anticipate problems before they escalate. \textcite{Sabharwal2021} identify three classes of BDA capability: descriptive analytics, which addresses what has happened; predictive analytics, which addresses what is likely to happen; as well as prescriptive analytics, which addresses what the organisation should do in response. NetConnect's project sits squarely in the predictive and prescriptive categories, aiming not only to identify which customers are likely to churn but also to recommend targeted interventions.
+
+% ─── Section 2: Data-Driven Decision Making ───────────────────────────────────
+\newpage
+\section{Data-Driven Decision Making with Complex Data Sets}
+
+\subsection{What is Data-Driven Decision Making?}
+
+Data-driven decision making (DDDM) is the practice of basing organisational decisions on the analysis of data rather than on intuition, experience, or assumption alone. \textcite{Bhushan2024} describe DDDM as a process in which organisations gather and evaluate data, inform decision-makers of outcomes, improve operations as well as infrastructure, as well as identify where services are lacking -- with the process operating at project, company, or system level. At its core, DDDM treats data as a strategic asset: decisions are made only after evidence has been collected, processed, as well as interpreted by appropriate analytical tools.
+
+\textcite{Tawil2023}, in a case study of 85 small and medium-sized enterprises in the UK, reinforce this view, demonstrating that organisations which successfully adopt data-driven practices are able to optimise production processes, anticipate customer needs, as well as deliver more efficient services. Their research illustrates that the shift towards DDDM is not simply a technical one but also a cultural and organisational transformation, requiring investment in both skills as well as infrastructure.
+
+\subsection{The DDDM Process with Complex Data Sets}
+
+When working with complex, large-scale data sets such as those held by NetConnect, the DDDM process follows a structured pipeline. \textcite{Sarker2021} outline this pipeline as moving through data collection, data preparation and cleaning, exploratory analysis, model building, as well as the deployment of insights into operational systems. Each stage presents its own demands, and the integrity of the final output depends heavily on the quality of the work carried out at earlier stages.
+
+\textcite{Li2024} emphasise that data governance -- the exercise of authority and control over data assets -- is a critical foundation for this process. Without effective governance, organisations face data quality issues including missing values, duplication, inconsistent labelling, as well as a lack of standardised processes, all of which undermine the reliability of any downstream analysis. In NetConnect's case, this is particularly relevant given that its data is drawn from multiple platforms -- billing systems, mobile networks, internet usage logs, as well as customer service records -- each of which may follow different standards and formats.
+
+\textcite{Ahmad2019} provide a concrete example of the DDDM process applied directly to telecom churn prediction. Their study used a Hadoop-based big data platform to process 70 terabytes of customer data from a Syrian telecommunications company, applying machine learning algorithms including Decision Tree, Random Forest, Gradient Boosted Machine Tree, as well as XGBoost to identify customers at risk of churning. The authors found that combining Social Network Analysis features with machine learning improved prediction accuracy from 84\% to 93.3\% under the AUC standard, demonstrating that structured DDDM pipelines applied to complex telecom data sets are able to produce highly actionable results.
+
+% ─── Section 3: Advantages and Challenges ─────────────────────────────────────
+\newpage
+\section{Advantages and Challenges of Using Complex Data Sets}
+
+\subsection{Advantages}
+
+The adoption of big data analytics for decision making carries significant advantages for organisations such as NetConnect. \textcite{Bhushan2024} argue that analytical tools and big data should be viewed not as isolated factors but as cooperative resources that, when integrated with traditional decision-making, produce more effective as well as better-informed outcomes. The primary advantages include the ability to identify patterns at a scale and speed that manual analysis cannot match, the ability to shift from reactive to proactive management of business problems, as well as the opportunity to personalise products and services at an individual customer level.
+
+In the telecom sector specifically, \textcite{Saleh2023} demonstrate that data-driven churn prediction models are able to identify key factors driving customer departures -- such as service quality, subscription plan features, as well as network coverage -- thereby giving operators the intelligence needed to design targeted retention campaigns before customers decide to leave. Similarly, \textcite{Sikri2024} show that machine learning-based churn models, particularly ensemble approaches such as XGBoost applied with a 75:25 sampling ratio, consistently outperform traditional single-model approaches across accuracy, precision, recall, as well as F-score metrics, making them a robust tool for operational decision support.
+
+Beyond churn, \textcite{Ullah2022} highlight that distributed data processing frameworks -- specifically Hadoop, Spark, as well as Flink -- enable organisations to scale their data processing both horizontally as well as vertically, accommodating growing data volumes without a corresponding increase in per-unit processing cost. Spark was found to be the most cost-effective option overall, while Flink outperformed both alternatives in terms of execution time, providing NetConnect's technical teams with clear benchmarks when evaluating infrastructure options.
+
+\subsection{Challenges}
+
+Despite these advantages, working with complex data sets presents considerable challenges that organisations must plan for. \textcite{Tawil2023} identify a cluster of barriers that commonly prevent organisations from realising the benefits of DDDM, including limited access to financing for IT investment, a shortage of qualified data science skills, difficulties in integrating data from multiple sources into a coherent format, as well as cultural resistance to data-led approaches within existing teams. Their case study of UK SMEs found that the digital adoption gap was widest among smaller organisations and those with fewer than ten employees, but the underlying barriers -- data quality, governance, as well as skills -- are relevant at any scale.
+
+\textcite{Li2024} argue that data governance is frequently overlooked as a prerequisite for DDDM, noting four root causes of data issues in industrial settings: human factors, a lack of written policies and regulations, ineffective hardware and software, as well as insufficient resources. Without addressing these, the authors contend, even the most sophisticated analytics systems will produce unreliable outputs. For NetConnect, whose data spans multiple platforms with potentially inconsistent standards, this represents a direct operational risk.
+
+Additionally, \textcite{Sabharwal2021} note that BDA adoption requires organisations to adjust their resources, re-examine their environmental assumptions, as well as invest in organisational management capacity in order to implement and sustain analytical capability over time. The transition is not a one-time technical deployment but an ongoing commitment, meaning that the short-term costs of adoption must be weighed against long-term strategic value.
+
+% ─── Section 4: Predicted Impact ─────────────────────────────────────────────
+\newpage
+\section{Predicted Impact on NetConnect Solutions}
+
+The shift towards a data-driven analytics approach is expected to have significant and measurable impacts on both NetConnect as an organisation as well as its customer base. Based on the evidence from the literature, these impacts can be considered across three dimensions: operational, strategic, as well as customer-facing.
+
+Operationally, the deployment of a predictive churn model is expected to reduce the time between customer dissatisfaction and organisational response. \textcite{Zhou2023} demonstrate that an RF-Adaboost dual-ensemble model applied to a data set of 900,000 telecom customers achieved recall rates of 99\% and an F1 score of 96\%, meaning that the model was able to correctly identify the vast majority of customers who subsequently churned. Translating this capability to NetConnect would allow Alex and the data team to flag at-risk accounts in near real-time, enabling customer success teams to intervene with targeted offers, service improvements, or personalised outreach before the decision to leave is finalised.
+
+Strategically, the move from manual to automated analytics is predicted to reduce NetConnect's reliance on reactive analysis and enable a genuinely proactive posture. \textcite{Sarker2021} argue that smart computing and data-driven systems fundamentally change how organisations relate to their data, shifting the locus of decision making from individual analysts working retrospectively to automated systems that surface insights continuously. For a company of NetConnect's scale -- serving millions of customers across the United States -- this shift represents a meaningful competitive advantage, particularly in a saturated market where marginal improvements in retention directly translate to revenue.
+
+For customers, the predicted impact is an improvement in the quality and timeliness of service. \textcite{Sikri2024} note that one of the most significant costs of customer churn, beyond lost revenue, is the reputational damage that accumulates through negative word-of-mouth as well as social media exposure -- a dynamic that was clearly visible in NetConnect's own experience following the July outage. A predictive retention system that identifies and addresses dissatisfaction early would therefore reduce not only direct churn but also the secondary reputational effects that make new customer acquisition more difficult as well as more expensive over time. \textcite{Ahmad2019} further note that retaining an existing customer is estimated to cost six times less than acquiring a new one, underscoring the financial case for the investment NetConnect is now undertaking.
+
+In summary, the adoption of big data analytics and a data-driven decision-making culture is expected to transform NetConnect from an organisation that reacts to customer loss into one that anticipates and prevents it, with measurable benefits for operational efficiency, strategic positioning, as well as customer satisfaction.
+
+% ─── Section 5: BI Proposal ───────────────────────────────────────────────────
+\newpage
+\section{Business Intelligence Proposal: Tool Assessment for NetConnect Solutions}
+
+\subsection{Overview of Industry Tools for Big Data Manipulation and Visualisation}
+
+The selection of appropriate tools for big data manipulation as well as visualisation is a critical step in any data-driven project. The industry offers a wide range of solutions, spanning distributed data processing frameworks, statistical programming languages, as well as dedicated business intelligence platforms. \textcite{Gahar2024} provide a comprehensive survey of the current landscape, noting that big data visualisation tools have evolved to address the specific challenge of making very large, high-velocity data sets intelligible to decision-makers who may not have a technical background. Their review distinguishes between tools oriented towards data engineers -- who require frameworks capable of processing and transforming raw data -- and those oriented towards business users, who require clear, interactive visual outputs.
+
+At the processing layer, the dominant frameworks in industry are Apache Hadoop, Apache Spark, as well as Apache Flink. \textcite{Ullah2022} conducted an empirical evaluation of all three frameworks deployed across a hybrid cloud consisting of OpenStack (private) as well as Microsoft Azure (public), measuring performance in terms of execution time, resource utilisation, scalability, as well as cost. Their findings show that Spark outperforms Hadoop in execution time and is the least expensive option for data processing workloads, while Flink offers the best execution time of the three due to its use of cyclic data flows for iterative processing. Hadoop, while the most established of the three, was found to be the most expensive as well as the slowest. All three frameworks scale horizontally more effectively than vertically, making them well suited to the kind of fluctuating, large-scale workloads that a telecommunications provider such as NetConnect regularly encounters.
+
+For statistical analysis as well as modelling, the two dominant tools in the data science community are Python and R. Both are open-source, have extensive libraries for machine learning as well as statistical analysis, as well as are widely used in academic and commercial settings. \textcite{Ahmad2019} used a Spark-based big data platform in conjunction with tree-based machine learning algorithms to process telecom churn data at scale, demonstrating that the combination of a distributed processing framework with a structured modelling pipeline is capable of handling data sets measured in tens of terabytes while still producing results that are operationally useful. R in particular offers a strong ecosystem for statistical visualisation through packages such as \texttt{ggplot2} as well as \texttt{plotly}, which enable the production of publication-quality static as well as interactive charts respectively.
+
+For business-facing visualisation and dashboard tooling, the leading commercial platforms are Tableau, Microsoft Power BI, as well as Qlik Sense. \textcite{Gahar2024} note that these tools are designed to allow non-technical users to explore data interactively, apply filters, as well as generate visual reports without writing code, making them well suited to management and customer-facing departments within large organisations. \textcite{Lavalle2024} propose a goal-based, iterative framework for deriving business intelligence visualisation requirements, arguing that the most effective dashboards are built by first capturing what decisions the user needs to make, then working backwards to determine which visual representations best serve those goals. This approach moves away from ad hoc chart selection and towards a structured methodology that ensures each visualisation is purposeful as well as traceable to a specific business objective.
+
+\subsection{Tool Suitability Assessment for NetConnect Solutions}
+
+Having reviewed the available options, this section assesses which tools are most suitable for NetConnect's specific requirements. The core challenge Alex and the data team face is processing large volumes of customer data from multiple sources, building a predictive churn model, as well as presenting findings through a dashboard that can be used by non-technical stakeholders across the business.
+
+For data processing, Apache Spark is the recommended framework. The findings of \textcite{Ullah2022} demonstrate that Spark offers the best balance of execution speed, horizontal scalability, as well as cost-efficiency among the three major distributed frameworks. Its compatibility with both Python (via PySpark) as well as R (via SparkR) means that NetConnect's data team can work in the language they are most familiar with while still benefiting from distributed computing at scale. Spark's in-memory processing architecture also makes it particularly well suited to the iterative workloads that machine learning model training involves.
+
+For analysis as well as modelling, R is recommended as the primary tool. \textcite{Sabharwal2021} identify that descriptive, predictive, as well as prescriptive analytics represent the three classes of BDA capability that organisations need to develop. R supports all three natively, offering packages for exploratory data analysis, supervised machine learning, as well as model interpretation. For NetConnect's churn prediction task, packages such as \texttt{caret}, \texttt{randomForest}, as well as \texttt{xgboost} provide access to the same ensemble methods that have demonstrated strong performance in the academic literature on telecom churn \parencite{Sikri2024, Zhou2023}.
+
+For visualisation as well as dashboard delivery, R Shiny is recommended as the most appropriate solution for NetConnect's current stage of development. Shiny enables the construction of interactive, browser-based dashboards directly within the R environment, eliminating the need for a separate front-end development tool as well as keeping the entire pipeline -- from data ingestion through to visualisation -- within a single, reproducible workflow. \textcite{Lavalle2024} argue that goal-based visualisation design, in which each chart maps to a specific decision or question, produces dashboards that are more useful as well as more readily adopted by business users than those built by simply exploring what the data allows. This principle has been applied directly in the design of the NetConnect dashboard developed as part of this project, as discussed in Deliverable 3. For longer-term deployment at scale, migration to a dedicated BI platform such as Microsoft Power BI or Tableau would be advisable, as these tools offer enterprise-grade access control, scheduling, as well as integration with existing organisational data infrastructure.
+
+In summary, the recommended toolchain for NetConnect Solutions is Apache Spark for distributed data processing, R for statistical modelling as well as analysis, and R Shiny for interactive dashboard delivery. This stack is open-source, well supported by the academic as well as professional community, as well as directly appropriate to the scale and nature of the churn prediction task at hand.
+
+% ─── References ───────────────────────────────────────────────────────────────
+\newpage
+\printbibliography[title={References}]
+
+\end{document}

@@ -1,0 +1,292 @@
+﻿ASSIGNMENT COVER SHEET
+Course Title
+HND MQF/EQF Level 5 – Higher National Diploma in Computing 
+Unit Number and Title
+Unit 26: Big Data Analytics and Visualisation
+Assignment Title
+Data Analytics and Visualisation – NetConnect Solutions
+Assignment Code
+HNDC2_26A1_1S1
+Assignment No
+Sit No
+Assignment Type
+Academic Year
+Student Group
+1/1
+1
+Home 
+2025/2026
+HNDC 2
+Student Full Name
+Student ID/Passport No
+Student Email
+
+
+
+Assessor Full Name
+Assignment IV 
+Date of Verification 
+Kurt Ellul 
+Dr Manuel Vella Rago
+2nd March 2026
+Issue Date
+Deadline Date
+Submitted Date
+1st April 2026
+13th May 2026
+
+Assignment Instructions: Read the following instructions carefully before you start the assignment. If you are not clear regarding any point, kindly ask your lecturer.
+    • This assignment is a home assignment and must be submitted by the deadline indicated on the cover sheet.
+    • Fill in the Assignment Cover Sheet appropriately – Student Number is your ID/Passport No.
+    • Plagiarism is Strictly Prohibited. Plagiarism is the presentation of someone else’s ideas, words or work as one's own creation. A student who copies or paraphrases published or on-line material, or another person's research, without properly identifying the source(s) is committing plagiarism. A Student who copies another Student’s work is also guilty of plagiarism. Disciplinary action will be taken against anyone guilty of plagiarism. 
+    • All references should be listed at the end of your assignment – preferably using the Harvard System Style.
+    • This Assignment covers the following assessment criteria:
+
+Student Declaration
+I hereby acknowledge that I have read and understood the instructions provided on this cover sheet.
+I certify that the work submitted for this assignment is my own and research sources are fully acknowledged and included in this work.
+Student’s Signature: ______________________                                                     Date: ___________________
+Pass
+Assessment Criteria
+In this assessment you have the opportunity to present evidence that shows you are able to:
+Learning Outcome 
+Met 
+✓ / X
+P1
+Explain the fundamental concepts of big data and its value in decision making for end users and organisations.
+LO1
+
+P2
+Examine the processes of data driven decision making (DDDM) when using complex data sets.
+LO1
+
+P3
+Discuss statistical and graphical tools and techniques used in industry for big data manipulation and visualisation.
+LO2
+
+P4
+Demonstrate the use of data manipulation and automation to present a visualisation for a given user case.
+LO3
+
+P5
+Investigate the different roles, responsibilities and key issues faced by data specialists in their day-today role
+LO4
+
+
+In addition to the above PASS criteria, this assignment gives you the opportunity to submit evidence in order to achieve the following MERIT and DISTINCTION grades.
+
+Merit
+Assessment Criteria
+In this assessment you have the opportunity to present evidence that shows you are able to:
+Learning Outcome
+Met 
+✓ / X
+M1
+Discuss the advantages and challenges to an organisation of using complex data sets for decision making.
+LO1
+
+M2
+Assess the suitability of industry leading tools and software solutions for analysing and visualising data for the given use case.
+LO2
+
+M3
+Interpret the findings derived from the data manipulation to support conclusions made.
+LO3
+
+M4
+Review the different strategies used by data specialists to ensure data compliance.
+LO4
+
+
+
+
+
+Distinction
+Assessment Criteria
+In this assessment you have the opportunity to present evidence that shows you are able to:
+Learning Outcome
+Met 
+✓ / X
+D1
+Predict the potential impact of using complex data sets on both users and organisations for decision making.
+LO1
+
+D2
+Evaluate how well the chosen data preparation and manipulation methods, the tools selected, and the data derived will impact on business decision making for the given use case.
+LO2 & LO3
+
+D3
+Evaluate the impact of the key issues faced by data specialists when working in a data-driven culture.
+LO4
+
+
+
+	
+Assessment Criteria
+Assessor’s Comments
+P1
+
+P2
+
+P3
+
+P4
+
+P5
+
+M1
+
+M2
+
+M3
+
+M4
+
+D1
+
+D2
+
+D3
+
+General Comments: 
+
+	
+
+
+
+
+
+Assessor’s Name: Kurt Ellul 
+
+
+
+Assessor’s Signature: _________________________
+
+
+
+Date: ___________________
+Verifier’s Name: Dr Manuel Vella Rago
+
+
+
+Verifier’s Signature: __________________________
+
+
+
+
+Date: ___________________
+
+ Unit Learning Outcomes
+
+LO1 Examine data visualisation for decision making of complex data sets.
+LO2 Discuss statistical and graphical tools and techniques used to present big data for a given use case.
+LO3 Demonstrate statistical and graphical techniques used to present big data as a visualization.
+LO4 Investigate the challenges faced by data professionals in carrying out their role.
+
+Submission Format
+The submission is in the form of:
+    • Audio/visual/written training materials examining data visualisation concepts for decision making of complex data sets.
+    • Business Intelligence Proposal, including an assessment of statistical and graphical tools and techniques available to present big data to meet the needs of the business.
+The recommended word limit is 1,000–1,500 words, although you will not be penalised for exceeding the total word limit.
+    • Designed BI solution on a dashboard format, demonstrating data manipulation, visualisation and interpretation to meet the needs of the business.
+    • A written report to evaluate the chosen tools and techniques for the proposed solution, assessing how the data manipulation will impact the decision-making process of the business.
+The recommended word limit is 1,000–1,500 words, although you will not be penalised for exceeding the total word limit.
+    • Voice recording podcast investigating the challenges faced by data professionals carrying out their roles.
+You are required to make use of headings, paragraphs, and subsections as appropriate, and all work must be supported with research and referenced using the Harvard referencing system.
+
+
+
+Scenario
+Background
+NetConnect Solutions, headquartered in Atlanta, is a leading telecommunications provider known for its broad range of services including high-speed internet, mobile networks, and cable television. Serving millions across the United States, NetConnect has a reputation for robust service and innovative solutions, catering to both residential and corporate sectors.
+
+Prelude to the Crisis
+In recent months, despite its strong market presence, NetConnect noticed an unsettling trend: an uptick in customer churn rates, particularly in densely populated urban areas. Traditional analyses, performed manually by teams of data analysts, hinted at various factors but failed to provide actionable insights or reveal deeper patterns that could be addressed proactively.
+
+The Incident
+On a sweltering Friday in July, just as the weekend was starting, a major outage struck. Originating from a cyber-attack that targeted their infrastructure, the outage incapacitated internet access for over 600,000 users for several hours. The timing was critical—impacting businesses at peak operation hours and disrupting communication services during a major sports event, which escalated customer dissatisfaction.
+
+Immediate Aftermath
+Customer service lines were instantly overwhelmed with calls, the website crashed under the load of complaints, and social media erupted with negative publicity. The incident not only strained operational capacities but also accelerated customer churn, particularly among high-value corporate clients and tech-savvy users, who expected higher reliability.
+
+Strategic Shift
+Recognizing the urgency to understand and mitigate these churn risks, NetConnect’s senior management decided to engage a Data Science team to overhaul their approach to data analysis. The goal was to move away from manual, reactive methods toward a sophisticated, automated analytics system.
+
+Role of the Data Analyst
+A skilled data analyst, Alex, was brought on board to lead this transformative project. Alex's first task was to develop a predictive model using machine learning to analyze existing big data for patterns in customer churn. Key attributes to be analyzed included:
+    • Demographic Data: Age and geographical location.
+    • Service Usage Patterns: Data usage, preferred services (internet, mobile, TV), and payment methods.
+    • Incident Impact Reports: Specific data focusing on their direct impact on customer segments.
+Objective
+Alex's analysis aimed to identify not just the ‘who’ and ‘when’ of customer churn but also the ‘why’. 
+By integrating these insights into an automated real-time analytics dashboard, NetConnect hoped to anticipate customer dissatisfaction and intervene before the decision to leave, thus transforming their data-driven strategy to be more proactive and less reactive.
+
+Challenges Ahead
+The challenges were immense:
+    • Integrating diverse data sources into a coherent, accessible format for advanced analytics.
+    • Ensuring data accuracy and consistency across multiple platforms.
+    • Developing a user-friendly interface for the automated system that could be used by various departments within NetConnect.
+
+Assignment Brief and Guidance
+You are required to:
+
+    1) Develop a series of training materials for the company (in audio/video/written form) - Provide an overview of key policy and market shifts in Telecom company.
+    a) The training materials will need to explain the fundamental concepts of big data and its value in data driven decision making (DDDM) for end users and organisations, before moving on to predicting the impact of using new complex data sets for users and organisations.
+    b) A discussion of the processes of DDDM when using complex data sets should also be included in the training materials.
+    c) Discuss the advantages and challenges to an organisation of using complex data sets for decision making.
+
+    2) Your team leader has asked you to decide on the best tools to create a visualization demo for prospective use in Telecom Analysis. You need to produce a business proposal assessing a range of known industry-leading tools and software, which is suitable for NetConnect Solutions.
+
+    3) Develop a data visualisation demo for prospective use in their business strategy. This requires:
+    a)  creating a dashboard using data from any recognised source of for example: https://www.kaggle.com/code/quickwater/intro-to-r-with-telco-customer-churn-data/notebook
+    b) drawing a set of conclusions from the created data to demonstrate how NetConnect can leverage this in helping to drive its business decisions around customer retention.
+
+    4) Produce an evaluation report of how the chosen data preparation and manipulation methods, the tools selected, and the data derived has aided well in the decision-making process for NetConnect.
+
+
+    5) NetConnect has a podcast to engage its customer base. As the BI developer, you have been asked to pre-record a short segment for the show, talking about the industry and evaluating what kinds of issues are faced by data specialists when working in a data-driven culture.
+    a) Investigate the different roles and responsibilities of BI developers and evaluate the impact of the key issues they are faced with in their role when working in a data-driven culture.
+    b) Review the different strategies used by BI developers to ensure data compliance.
+
+Recommended Resources 
+Web:
+- https://careerfoundry.com/ (2022) 9 of the Best Data Analytics Portfolios on the Web 
+https://careerfoundry.com/en/blog/data-analytics/data-analytics-portfolio-examples/
+- https://rockcontent.com/ (2020) Big data visualization: what it is, techniques and best tools.
+https://rockcontent.com/blog/big-data-visualization/
+- https://scientistcafe.com/ (2021) Introduction to Data Science 
+https://scientistcafe.com/ids/
+- https://www.kaggle.com/ (2022) Datasets Library  
+https://www.kaggle.com/datasets
+- https://www.oracle.com/ (2022) What is Big Data?  
+https://www.oracle.com/uk/big-data/what-is-big-data/ 
+
+Journal articles: 
+- Gandomi, A. Haider, M. (2015) Beyond the hype: Big data concepts, methods, and analytics. 
+International Journal of Information Management, Volume 35, Issue 2, 2015, pp.137-144, ISSN 
+0268-4012, https://doi.org/10.1016/j.ijinfomgt.2014.10.007.
+- Hehman, E. & Xie S. (2021) Doing Better Data Visualization. Advances in Methods and Practices 
+in Psychological Science, Volume: 4 issue: 4, https://doi.org/10.1177/25152459211045334
+- Lyons, A. & Grable, J. (2018) An Introduction to Big Data.
+- Sivarajah, U. et al. (2017) Critical analysis of Big Data challenges and analytical methods. 
+Journal of Business Research, Volume 70, 2017, pp.263-286, ISSN 0148-2963, 
+https://doi.org/10.1016/j.jbusres.2016.08.001.
+Textbooks:
+- Cielen, D. Meysman, A. (2016) Introducing Data Science: Big Data, Machine Learning, and more, 
+using Python tools. 1st edition Manning Publications 
+http://bedford-computing.co.uk/learning/wp-content/uploads/2016/09/introducing-data-science-machine-learning-python.pdf
+- Maheshwari, A. (2014) Data Analytics Made Accessible.  1st edition
+- Milton, M. (2009) Head First Data Analysis: A learner's guide to big numbers, statistics, and good 
+decisions. 1st edition O'Reilly Media
+- Panneerselvam, A. Liu, L. Hill, R. (2015) Chapter 1 - An Introduction to Big Data. 1st edition 
+Butterworth-Heinemann https://doi.org/10.1016/B978-0-12-801967-2.00001-X
+
+HN Global:
+- HN Global HN Global (2021) Reading Lists. 
+https://hnglobal.highernationals.com/learning-zone/reading-lists 
+- HN Global (2021) Student Resource Library. 
+https://hnglobal.highernationals.com/subjects/resource-libraries
+- HN Global (2021) Textbooks. 
+https://hnglobal.highernationals.com/textbooks
+
+

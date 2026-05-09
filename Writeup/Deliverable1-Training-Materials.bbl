@@ -1,0 +1,653 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Ahmad2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=89d606fc31c658d01a98893808b92d13}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={Abdelrahim\bibnamedelima Kasem},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a019d78c6209461a45cb4183d9d250a9}{%
+           family={Jafar},
+           familyi={J\bibinitperiod},
+           given={Assef},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3406ed2831b6c420abe3b8293ece45e4}{%
+           family={Aljoumaa},
+           familyi={A\bibinitperiod},
+           given={Kadan},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{aab25e0ed47ba240fe24d7d97bb932a1}
+      \strng{fullhash}{e434ddf93febce2dbf4c0262e1eb0704}
+      \strng{bibnamehash}{e434ddf93febce2dbf4c0262e1eb0704}
+      \strng{authorbibnamehash}{e434ddf93febce2dbf4c0262e1eb0704}
+      \strng{authornamehash}{aab25e0ed47ba240fe24d7d97bb932a1}
+      \strng{authorfullhash}{e434ddf93febce2dbf4c0262e1eb0704}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Big Data}
+      \field{number}{1}
+      \field{title}{Customer churn prediction in telecom using machine learning in big data platform}
+      \field{volume}{6}
+      \field{year}{2019}
+      \field{pages}{28}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s40537-019-0191-6
+      \endverb
+    \endentry
+    \entry{Bhushan2024}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8bc8f23413d9978ac99447be4cd97be4}{%
+           family={Bhushan},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi Vinay},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=599c6f4d0772809490b4a9a323e071fd}{%
+           family={Lakshmi},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd9187e37df6f7a9bbfcfd591ee19bc6}{%
+           family={{Dhivya Devi}},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58864f59c70184a91c6689b48b37a095}{%
+           family={Brojabasi},
+           familyi={B\bibinitperiod},
+           given={Subhajit},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91a7d2f4e632d3c6c450a6372e81366c}{%
+           family={Sameer},
+           familyi={S\bibinitperiod},
+           given={Syed\bibnamedelima Shujauddin},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97f9ee4a58de12689f86f34207f2e55d}{%
+           family={AK},
+           familyi={A\bibinitperiod},
+           given={Usman},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c074275b0346f9fbfa646e0ff59015a1}
+      \strng{fullhash}{faf1fcd13f9a1b0320c48e0595e9ded2}
+      \strng{bibnamehash}{c074275b0346f9fbfa646e0ff59015a1}
+      \strng{authorbibnamehash}{c074275b0346f9fbfa646e0ff59015a1}
+      \strng{authornamehash}{c074275b0346f9fbfa646e0ff59015a1}
+      \strng{authorfullhash}{faf1fcd13f9a1b0320c48e0595e9ded2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1526-4726}
+      \field{journaltitle}{Journal of Informatics Education and Research}
+      \field{number}{3}
+      \field{title}{Data-driven decision-making: leveraging analytics for performance improvement}
+      \field{volume}{4}
+      \field{year}{2024}
+      \field{pages}{168\bibrangedash 176}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb http://jier.org
+      \endverb
+      \verb{url}
+      \verb http://jier.org
+      \endverb
+    \endentry
+    \entry{Dicuonzo2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1d45023ddad83025b2710439e5537387}{%
+           family={Dicuonzo},
+           familyi={D\bibinitperiod},
+           given={Grazia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7cb0e4a321623cc81a3ca1d0ae2f973}{%
+           family={Galeone},
+           familyi={G\bibinitperiod},
+           given={Graziana},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e76634ae8bf2f6af7a97a18f774c745}{%
+           family={Shini},
+           familyi={S\bibinitperiod},
+           given={Matilda},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cbf28294990791ce78fc97a102a75da}{%
+           family={Massari},
+           familyi={M\bibinitperiod},
+           given={Antonella},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{9e4467d3b9648f7ad125df4fbda247bd}
+      \strng{fullhash}{cb7af90575789da1a8df49ca32f4d64d}
+      \strng{bibnamehash}{9e4467d3b9648f7ad125df4fbda247bd}
+      \strng{authorbibnamehash}{9e4467d3b9648f7ad125df4fbda247bd}
+      \strng{authornamehash}{9e4467d3b9648f7ad125df4fbda247bd}
+      \strng{authorfullhash}{cb7af90575789da1a8df49ca32f4d64d}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Healthcare}
+      \field{number}{7}
+      \field{title}{Towards the use of big data in healthcare: a literature review}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{pages}{1232}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/healthcare10071232
+      \endverb
+    \endentry
+    \entry{Gahar2024}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2189feedf9ff5e28047bfefc11554c12}{%
+           family={Gahar},
+           familyi={G\bibinitperiod},
+           given={Rania\bibnamedelima Mkhinini},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45cc102355c6da44af6393d49547e0a6}{%
+           family={Arfaoui},
+           familyi={A\bibinitperiod},
+           given={Olfa},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f7853dece0e8852d2972561569aa0ce}{%
+           family={Hidri},
+           familyi={H\bibinitperiod},
+           given={Minyar\bibnamedelima Sassi},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{01c0dbde3cfeae5767ce9653e61a3ad4}
+      \strng{fullhash}{93b3e26a50e6e6a9e2f993767255d17b}
+      \strng{bibnamehash}{93b3e26a50e6e6a9e2f993767255d17b}
+      \strng{authorbibnamehash}{93b3e26a50e6e6a9e2f993767255d17b}
+      \strng{authornamehash}{01c0dbde3cfeae5767ce9653e61a3ad4}
+      \strng{authorfullhash}{93b3e26a50e6e6a9e2f993767255d17b}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{arXiv preprint arXiv:2404.12505}
+      \field{title}{Open research issues and tools for visualization and big data analytics}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2404.12505
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2404.12505
+      \endverb
+    \endentry
+    \entry{Lavalle2024}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=781a4b88a480730531f31ad0eba453b0}{%
+           family={Lavalle},
+           familyi={L\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57f630ca36c9ae11f02b0377a4027095}{%
+           family={Maté},
+           familyi={M\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5299b909c0617c1bf47262c26a4ac13}{%
+           family={Trujillo},
+           familyi={T\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6537df4bd392f1e1c0d25e0cad08e64}{%
+           family={Rizzi},
+           familyi={R\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8716f7b6ea74829e489b9dcd6626959}
+      \strng{fullhash}{b1ae9d223c9c930feb16027a83da7e6c}
+      \strng{bibnamehash}{e8716f7b6ea74829e489b9dcd6626959}
+      \strng{authorbibnamehash}{e8716f7b6ea74829e489b9dcd6626959}
+      \strng{authornamehash}{e8716f7b6ea74829e489b9dcd6626959}
+      \strng{authorfullhash}{b1ae9d223c9c930feb16027a83da7e6c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{arXiv preprint arXiv:2402.09491}
+      \field{title}{Visualization requirements for business intelligence analytics: a goal-based, iterative framework}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2402.09491
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2402.09491
+      \endverb
+    \endentry
+    \entry{Li2024}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6cc4afe0c331019afda1ad689a32121c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xuejiao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a00c5050f276cbfa0ac70050e61ef474}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b350667242a719c2a37b99f28166e5b8}{%
+           family={M{ø}ller},
+           familyi={M\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36c6031980dc9e19cb44af10dd674b94}
+      \strng{fullhash}{f004ee3ac022c8d6c967583b81902d2c}
+      \strng{bibnamehash}{f004ee3ac022c8d6c967583b81902d2c}
+      \strng{authorbibnamehash}{f004ee3ac022c8d6c967583b81902d2c}
+      \strng{authornamehash}{36c6031980dc9e19cb44af10dd674b94}
+      \strng{authorfullhash}{f004ee3ac022c8d6c967583b81902d2c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{arXiv preprint arXiv:2409.15137}
+      \field{title}{Data governance: a critical foundation for data driven decision-making in operations and supply chains}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2409.15137
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2409.15137
+      \endverb
+    \endentry
+    \entry{Sabharwal2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5bcf8a2671250de3a41ce768608afb92}{%
+           family={Sabharwal},
+           familyi={S\bibinitperiod},
+           given={Renu},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c7265d93bb9fb21722a02cae903b414}{%
+           family={Miah},
+           familyi={M\bibinitperiod},
+           given={Shah\bibnamedelima Jahan},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{85abcdd2f85bf06aa76ee932d85e0831}
+      \strng{fullhash}{85abcdd2f85bf06aa76ee932d85e0831}
+      \strng{bibnamehash}{85abcdd2f85bf06aa76ee932d85e0831}
+      \strng{authorbibnamehash}{85abcdd2f85bf06aa76ee932d85e0831}
+      \strng{authornamehash}{85abcdd2f85bf06aa76ee932d85e0831}
+      \strng{authorfullhash}{85abcdd2f85bf06aa76ee932d85e0831}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Big Data}
+      \field{number}{1}
+      \field{title}{A new theoretical understanding of big data analytics capabilities in organizations: a thematic analysis}
+      \field{volume}{8}
+      \field{year}{2021}
+      \field{pages}{159}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s40537-021-00543-6
+      \endverb
+    \endentry
+    \entry{Saleh2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=91a924e8d96a090ead84298a01514b40}{%
+           family={Saleh},
+           familyi={S\bibinitperiod},
+           given={Sarkaft},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b609eb04229f62b20abf6f3cbb9eac22}{%
+           family={Saha},
+           familyi={S\bibinitperiod},
+           given={Subrata},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{925114cf36b6806575153b7f862bb099}
+      \strng{fullhash}{925114cf36b6806575153b7f862bb099}
+      \strng{bibnamehash}{925114cf36b6806575153b7f862bb099}
+      \strng{authorbibnamehash}{925114cf36b6806575153b7f862bb099}
+      \strng{authornamehash}{925114cf36b6806575153b7f862bb099}
+      \strng{authorfullhash}{925114cf36b6806575153b7f862bb099}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SN Applied Sciences}
+      \field{number}{6}
+      \field{title}{Customer retention and churn prediction in the telecommunication industry: a case study on a {Danish} university}
+      \field{volume}{5}
+      \field{year}{2023}
+      \field{pages}{173}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s42452-023-05389-6
+      \endverb
+    \endentry
+    \entry{Sarker2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e22a4443fd23c87312de251117c5f761}{%
+           family={Sarker},
+           familyi={S\bibinitperiod},
+           given={Iqbal\bibnamedelima H.},
+           giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{e22a4443fd23c87312de251117c5f761}
+      \strng{fullhash}{e22a4443fd23c87312de251117c5f761}
+      \strng{bibnamehash}{e22a4443fd23c87312de251117c5f761}
+      \strng{authorbibnamehash}{e22a4443fd23c87312de251117c5f761}
+      \strng{authornamehash}{e22a4443fd23c87312de251117c5f761}
+      \strng{authorfullhash}{e22a4443fd23c87312de251117c5f761}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SN Computer Science}
+      \field{note}{PDF available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8274472/}
+      \field{number}{5}
+      \field{title}{Data science and analytics: an overview from data-driven smart computing, decision-making and applications perspective}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{377}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s42979-021-00765-8
+      \endverb
+    \endentry
+    \entry{Sikri2024}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a3ff92dd35b6b48e26d78b5fc915da6b}{%
+           family={Sikri},
+           familyi={S\bibinitperiod},
+           given={Alisha},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fc0f39e15c10df25ffc77915533d214}{%
+           family={Jameel},
+           familyi={J\bibinitperiod},
+           given={Roshan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81f61b37050ad60171cf13f52f99340d}{%
+           family={Idrees},
+           familyi={I\bibinitperiod},
+           given={Sheikh\bibnamedelima Mohammad},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d16f886d6a7b11279644c68b22ef763c}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Harleen},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{7957a313184fc53b8fe0bdc4c3e02840}
+      \strng{fullhash}{182b90a9811f2762e2fd7607ecc48e59}
+      \strng{bibnamehash}{7957a313184fc53b8fe0bdc4c3e02840}
+      \strng{authorbibnamehash}{7957a313184fc53b8fe0bdc4c3e02840}
+      \strng{authornamehash}{7957a313184fc53b8fe0bdc4c3e02840}
+      \strng{authorfullhash}{182b90a9811f2762e2fd7607ecc48e59}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Enhancing customer retention in telecom industry with machine learning driven churn prediction}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{pages}{13097}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-024-63750-0
+      \endverb
+    \endentry
+    \entry{Tawil2023}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d034b5e79b6c7324fc4424e542856f9d}{%
+           family={Tawil},
+           familyi={T\bibinitperiod},
+           given={Abdel-Rahman\bibnamedelima H.},
+           giveni={A\bibinithyphendelim R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34f00475a2529cc709d660f2fea8e1cc}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Muhidin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92877632f42c95cb5794de9a536c93f3}{%
+           family={Schmoor},
+           familyi={S\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91bd05538812e896d88061bb28f65e7f}{%
+           family={Vlachos},
+           familyi={V\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=afb2a96c4b143a779a2fe418d2a380a4}{%
+           family={Haidar},
+           familyi={H\bibinitperiod},
+           given={Diana},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4957f6facdd51ef55567004acc3e09e1}
+      \strng{fullhash}{49492693d5d5322e494923508df9319d}
+      \strng{bibnamehash}{4957f6facdd51ef55567004acc3e09e1}
+      \strng{authorbibnamehash}{4957f6facdd51ef55567004acc3e09e1}
+      \strng{authornamehash}{4957f6facdd51ef55567004acc3e09e1}
+      \strng{authorfullhash}{49492693d5d5322e494923508df9319d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{arXiv preprint arXiv:2305.15454}
+      \field{title}{Trends and challenges towards an effective data-driven decision making in {UK} {SMEs}: case studies and lessons learnt from the analysis of 85 {SMEs}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2305.15454
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2305.15454
+      \endverb
+    \endentry
+    \entry{Ullah2022}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f4ad11b62d84c12fc113af37e7dd3a6d}{%
+           family={Ullah},
+           familyi={U\bibinitperiod},
+           given={Faheem},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6930623ddb4c29792aae3c64398bcf7c}{%
+           family={Dhingra},
+           familyi={D\bibinitperiod},
+           given={Shagun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae90e5241c09a95e6f459cab9bfa7f13}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Xiaoyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=362a6eb0519f5783dd2978fd8896ffb3}{%
+           family={Babar},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi Ali},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{85a604865c82b98028f03960c888928f}
+      \strng{fullhash}{8186f31f16de9386c83c70713785f752}
+      \strng{bibnamehash}{85a604865c82b98028f03960c888928f}
+      \strng{authorbibnamehash}{85a604865c82b98028f03960c888928f}
+      \strng{authornamehash}{85a604865c82b98028f03960c888928f}
+      \strng{authorfullhash}{8186f31f16de9386c83c70713785f752}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{arXiv preprint arXiv:2201.01948}
+      \field{title}{Evaluation of distributed data processing frameworks in hybrid clouds}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2201.01948
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2201.01948
+      \endverb
+    \endentry
+    \entry{Zhou2023}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=45602a55caf11b43f05447e8256f87dd}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yancong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ca366703f2c56d3eda35da02529f6a8}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wenyue},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2247cea9fbf5a1adf50df689d24e97f5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Xiaochen},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f019694d2ce178085579e3bef7d040d3}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Dandan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{baf30763ff844123eec06f1ab8c1cb29}
+      \strng{fullhash}{01ffca1ae4767484be207a5fd54c6795}
+      \strng{bibnamehash}{baf30763ff844123eec06f1ab8c1cb29}
+      \strng{authorbibnamehash}{baf30763ff844123eec06f1ab8c1cb29}
+      \strng{authornamehash}{baf30763ff844123eec06f1ab8c1cb29}
+      \strng{authorfullhash}{01ffca1ae4767484be207a5fd54c6795}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{number}{10}
+      \field{title}{Early warning of telecom enterprise customer churn based on ensemble learning}
+      \field{volume}{18}
+      \field{year}{2023}
+      \field{pages}{e0292466}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0292466
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

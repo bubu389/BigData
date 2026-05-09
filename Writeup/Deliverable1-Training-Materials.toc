@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Fundamental Concepts of Big Data}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}What is Big Data?}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}The Value of Big Data in Decision Making}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Data-Driven Decision Making with Complex Data Sets}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}What is Data-Driven Decision Making?}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The DDDM Process with Complex Data Sets}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Advantages and Challenges of Using Complex Data Sets}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Advantages}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Challenges}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Predicted Impact on NetConnect Solutions}{9}{section.5}%
+\contentsline {section}{\numberline {6}Business Intelligence Proposal: Tool Assessment for NetConnect Solutions}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Overview of Industry Tools for Big Data Manipulation and Visualisation}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Tool Suitability Assessment for NetConnect Solutions}{11}{subsection.6.2}%
